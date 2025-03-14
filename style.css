@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap');
-
+:root{
+    background-color: cornflowerblue;
+}
 .cabecalho{
     background-color: #e8fbbb;
     width: 100%;
@@ -12,4 +14,5 @@
     color: #4d543d;
     font-size: 32px;
     font-family:Emblema One;
+
 }

@@ -30,7 +30,30 @@
 }
 .foto{
     width: 33%;
+    border-radius: 10px;
+    height: 500px;
 }
-.botao{
+.texto-descricao{
+    font-size: 24px;
+    display: inline-block;
+}
+.foto-explorar{
+    text-align: left;
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+}
+.destino{
+    display: flex;
+    align-items: center;
+}
+.ul{
     text-decoration: nome;
+    list-style-type: nome;
+    display: flex;
+}
+.topicos{
+    text-decoration: nome;
+    list-style-type: nome;
+    display: flex;
 }

@@ -1,23 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap');
 :root{
-    background-color: rgb(167, 173, 230);
+    background-color: bisque;
 }
-.cabecalho{ 
+.cabecalho{
     width: 100%;
 }
 .botao{
     color: #4d543d;
     font-size: 24px;
+    text-decoration: nome;
 }
 .titulo{
     color: #4d543d;
     font-size: 32px;
     font-family:Emblema One;
     text-align: center;
+    padding-top:3em ;
 }
 .h2{
     font-family: Emblema One;
-    font-size: 24px;
+    font-size: 28px;
     color: #4d543d;
 }
 .texto-inicial{
@@ -47,13 +49,22 @@
     display: flex;
     align-items: center;
 }
-.ul{
-    text-decoration: nome;
-    list-style-type: nome;
-    display: flex;
-}
+
 .topicos{
-    text-decoration: nome;
-    list-style-type: nome;
     display: flex;
+    position: absolute;
+    padding: 1em;
+    list-style-type: nome;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: left;
+}
+.botao-link{
+    text-decoration: nome;
+    display: flex;
+    color: #e8fbbb;
+    font-size: 24px;
+    padding-left: 2em;
+    padding-right: 2em;
+    background-color: #4d543d;
 }
